@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Portfólio - Caio Bandeira de Faria</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .redes {
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+    }
+
+    .rounded-image {
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+    }
+
+    .caption {
+      margin-left: 10px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .caption:hover {
+      color: gold;
+    }
+    
+    .frasemot {
+      color: white;
+      font-style: italic;
+    }
+
+    .wallpapercolor {
+      background-image: url(images/wallpaper6.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 100vh;
+      padding-bottom: 120px;
+    }
+
+    .footer {
+      width: 100%;
+      background-color:rgb(4, 9, 34);
+      padding: 25px;
+      text-align: center;
+    }
+
+    .footer_content {
+      display: grid;
+    }
+
+    .col {
+      flex-basis: 3;
+      flex-grow: 3;
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+
+    h4{
+      color: white;
+      text-align: center;
+    }
+
+    .texto {
+      background-color: rgba(0, 0, 0, 0.753);
+    }
+
+    .empresas {
+      width: 200px;
+      height: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .texto2 {
+      color: white;
+      text-align: center;
+    }
+
+    .texto3 {
+      color: white;
+      text-align: left;
+      font-style: italic;
+    }
+
+    .paginas {
+      width: 700px;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+      max-height: 100%;
+      
+    }
+
+    .lista1 {
+      color: white;
+      text-align: left;
+      font-style: italic;
+    }
+
+    .tech {
+      color: white;
+      text-align: center;
+    }
+
+    .tec {
+      color: white;
+      text-align: left;
+      font-style: italic;
+      text-decoration: none;
+    }
+
+    .tec2 {
+      color: white;
+      text-align: center;
+      font-style: italic;
+    }
+
+    .link1 {
+      color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .link1:hover {
+      color: gold;
+    }
+
+    .link2 {
+      color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .link2:hover {
+      color: blue;
+    }
+
+    .link3 {
+      color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .link3:hover {
+      color:rgb(3, 122, 177)
+    }
+
+    .link4 {
+      color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .link4:hover {
+      color:rgb(3, 82, 119)
+    }
+
+    .link5 {
+      color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .link5:hover {
+      color:red
+    }
+
+    .link6 {
+      color: white;
+      text-align: left;
+      font-style: italic;
+      text-decoration: none;
+    }
+
+    .link6:hover {
+      color: purple
+    }
+
+    .link7 {
+      color: white;
+      text-align: left;
+      font-style: italic;
+      text-decoration: none;
+    }
+
+    .link7:hover {
+      color: red
+    }
+
+    .link8 {
+      color: white;
+      text-align: left;
+      font-style: italic;
+      text-decoration: none;
+    }
+
+    .link8:hover {
+      color:gold
+    }
+
+    .html {
+      color:purple
+    }
+
+    .css {
+      color: red;
+    }
+
+    .js {
+      color: yellow;
+    }
+
+    .pro {
+      color: green;
+    }
+
+    .contra {
+      color: orange;
+    }
+
+    .prj {
+      color: aqua;
+    }
+  </style>
+</head>
+<body class="wallpapercolor p-3 m-0 border-0 bd-example">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="paginaprincipal.html">Página Principal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="sobremim.html">Sobre Mim</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="formacao.html">Formação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="atuacaoprofissional.html">Atuação Profissional</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfólio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="texto"> 
+  <h4>
+      Em todo o tempo que trabalho com programação, fui chamado para atuar em áreas de sites de empresas altamente conhecidas e multi-biliónarias.
+    </h4>
+    <h2 class="empresas">
+      <a href="https://www.rockstargames.com/" target="_blank"><img class="empresas" src="images/rockstar.jpg"></a>
+    </h2>
+    <h6>
+      <p class="texto2">Trabalhei com a Rockstar Games. Atuei na última re-estilização do site, e o carrossel da página principal foi inteiramente feito por mim.</p>
+      <p class="paginas"><img class="paginas" src="images/pagerockstar.jpg"></p></h6></a>
+      <p class="link1"><a class="link1" href="https://www.rockstargames.com/" target="_blank">Clique aqui!</a></p>
+      <h3><p class="texto3">Exigências:</p></h3>
+        <ul class="lista1">
+          <li>Visual bem clean e leve.</li>
+          <li>Atualizações diárias.</li>
+          <li>Leve e prático.</li>
+        </ul>
+        <h2 class="empresas">
+          <a href="https://store.steampowered.com/" target="_blank"><img class="empresas" src="images/steam.jpg"></a>
+        </h2>
+        <h6>
+          <p class="texto2">Com a Valve, trabalhei na página principal de uma das maiores lojas de games do mundo, a Steam. Toda a parte de layout/design dessa parte do site, foi feito por mim.</p>
+          <p class="paginas"><img class="paginas" src="images/pagesteam.jpg"></p></h6></a>
+          <p class="link2"><a class="link2" href="https://store.steampowered.com/" target="_blank">Clique aqui!</a></p>
+          <h3><p class="texto3">Exigências:</p></h3>
+            <ul class="lista1">
+              <li>Priorizar games em promoção na primeira linha do carrossel.</li>
+              <li>Diversos tons de azul para dar uma impressão de sombreamento.</li>
+              <li>Menu principal no topo da página que levam as principais sessões da Steam.</li>
+              <li>Menu lateral que separam-os por categoria e gênero.</li>
+            </ul>
+            <h2 class="empresas">
+              <a href="https://www.bmw.com.br/pt/index.html" target="_blank"><img class="empresas" src="images/bmw.jpg"></a>
+            </h2>
+            <h6>
+              <p class="texto2">Uma das maiores empresas de automóveis de luxo, BMW, recebeu muitas críticas quando atuava com seu antigo site, principalmente na parte do configurador. Estilizei e otimizei a página, para que não ocorressem bugs quando visto por uma tela menor e que não desse muito trabalho para hardwares mais simples (constantes travamentos eram frequêntes).</p>
+              <p class="paginas"><img class="paginas" src="images/pagebmw.jpg"></p></h6></a>
+              <p class="link3"><a class="link3" href="https://www.bmw.com.br/pt/configurador.html" target="_blank">Clique aqui!</a></p>
+              <h3><p class="texto3">Exigências:</p></h3>
+                <ul class="lista1">
+                  <li>Veículos separados por série e modelos.</li>
+                  <li>Preço inicial de cada modelo deveria ser exibido junto ao próprio.</li>
+                  <li>Menu principal no topo da página que levam as respectivas séries.</li>
+                  <li>Opção de filtrar carros elétricos e híbridos.</li>
+                </ul>
+                <h2 class="empresas">
+                  <a href="https://www.vw.com.br/pt.html" target="_blank"><img class="empresas" src="images/volkswagen.jpg"></a>
+                </h2>
+                <h6>
+                  <p class="texto2">Uma das montadoras mais famosas do mundo, a Volkswagen, também já teve diversas críticas negativas sobre o seu site, principalmente de como era difícil e confuso de encontrar funções e informações. Na última re-estilização do site, entrei em ação refazendo por completo a guia de menus, deixando as informações limpas e claras.</p>
+                      <p class="paginas">
+                      <video class="paginas" width="700" height="400" controls>
+                        <source src="videos/volkswagen.mp4" type="video/mp4">
+                      </video>
+                  </p>
+                  <p class="link4"><a class="link4" href="https://www.vw.com.br/pt.html" target="_blank">Clique aqui!</a></p>
+                    <h3><p class="texto3">Exigências:</p></h3>
+            <ul class="lista1">
+              <li>Ter caminhos para todas as funções do site.</li>
+              <li>Sub-menus dentro dos menus principais.</li>
+              <li>Botão para ofertas.</li>
+              <li>Rodapé personalizado.</li>
+            </ul>
+            <h2 class="empresas">
+              <a href="https://www.nike.com.br/" target="_blank"><img class="empresas" src="images/nike.jpg"></a>
+            </h2>
+            <h6>
+              <p class="texto2">A marca de calçados mais famosa do mundo, a Nike, sempre teve um estilo mais jovial quando se trata de marketing, e no próprio site não seria diferente. Sempre fez bastante sucesso quando se trata de propagandas e não recebeu muitas críticas negativas quanto ao site, mas é sempre bom estar mudando para não ficar algo enjoativo. O que planejei nesse site, foi algo bem simples, mas que deu uma praticidade bem grande e manteve o visual clean. Re-estilizei o menu principal e separei as categorias, também abaixo dele, projetei um carrossel que mostra informações relevantes para aquele momento.</p>
+                  <p class="paginas">
+                  <video class="paginas" width="700" height="400" controls>
+                    <source src="videos/nike.mp4" type="video/mp4">
+                  </video>
+                  </p>
+                  <p class="link5"><a class="link5" href="https://www.nike.com.br/" target="_blank">Clique aqui!</a></p>
+                <h3><p class="texto3">Exigências:</p></h3>
+        <ul class="lista1">
+          <li>Ter todas as categorias separadas principalmente por feminino e masculino.</li>
+          <li>Ser feito em tons menos coloridos como cinza, branco e preto.</li>
+          <li>Possuir uma barra de pesquisa.</li>
+          <li>Carrossel com informações relevantes para época que está sendo acessado.</li>
+        </ul>
+              <h2 class="tec2">Tecnologias Utilizadas</h2>
+              <ul class="tec">
+                <li>
+                  <a class="link6" href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML5</a>
+                </li>
+                <li>
+                  <a class="link7" href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">CSS</a>
+                </li>
+                <li>
+                  <a class="link8" href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">JavaScript</a>
+                </li>
+              </ul>
+            </section>
+            <section class="tec">
+              <h2 class="html">HTML5 Resumo - Prós/Contras</h2>
+              <p>
+                O HTML5 é a versão mais recente da linguagem de marcação padrão da web. 
+                É amplamente utilizado para estruturar e apresentar o conteúdo na Internet.
+              </p>
+              <h3 class="pro">Prós:</h3>
+              <ul>
+                <li>Versatilidade e suporte a recursos avançados.</li>
+                <li>Maior acessibilidade e semântica.</li>
+                <li>Compatibilidade com dispositivos móveis.</li>
+              </ul>
+              <h3 class="contra">Contras:</h3>
+              <ul>
+                <li>Compatibilidade com navegadores mais antigos.</li>
+                <li>Curva de aprendizado para recursos avançados.</li>
+                <li>Possíveis problemas de segurança se mal utilizado.</li>
+              </ul>
+              <h3 class="prj">Grandes projetos que utilizam HTML5:</h3>
+              <ul>
+                <li>Google</li>
+                <li>YouTube</li>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Netflix</li>
+                <li>Amazon</li>
+              </ul>
+            </section>
+            <section class="tec">
+              <h2 class="css">CSS - Reviews, Pros & Cons | Companies using CSS</h2>
+              <p>
+                O CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para controlar a aparência e o layout dos elementos em um documento HTML. Ele desempenha um papel fundamental na criação de um design atraente e responsivo para sites.
+              </p>
+              <h3 class="pro">Prós:</h3>
+              <ul>
+                <li>Permite a separação entre a estrutura (HTML) e a apresentação (CSS) do site.</li>
+                <li>Oferece uma ampla gama de opções de estilização e personalização.</li>
+                <li>Facilita a manutenção e a reutilização do código.</li>
+              </ul>
+              <h3 class="contra">Contras:</h3>
+              <ul>
+                <li>Curva de aprendizado inicial para dominar os conceitos mais avançados.</li>
+                <li>Compatibilidade entre navegadores pode ser um desafio em casos mais complexos.</li>
+                <li>Gerenciamento de estilos em projetos grandes pode exigir estratégias adicionais.</li>
+              </ul>
+              <h3 class="prj">Grandes projetos que utilizam CSS:</h3>
+              <ul>
+                <li>Bootstrap</li>
+                <li>Materialize CSS</li>
+                <li>Tailwind CSS</li>
+                <li>WordPress</li>
+                <li>LinkedIn</li>
+                <li>GitHub</li>
+              </ul>
+            </section>
+            <section class="tec">
+              <h2 class="js">JavaScript - Reviews, Pros & Cons | Companies using JavaScript</h2>
+              <p>
+                JavaScript é uma linguagem de programação de alto nível e interpretada, amplamente utilizada no desenvolvimento web. Ele permite a criação de interações dinâmicas e funcionais nos sites, tornando-os mais interativos e responsivos.
+              </p>
+              <h3 class="pro">Prós:</h3>
+              <ul>
+                <li>Ampla compatibilidade com navegadores e plataformas.</li>
+                <li>Facilidade de integração com outras tecnologias web.</li>
+                <li>Possibilidade de desenvolver aplicativos web avançados e ricos em recursos.</li>
+              </ul>
+              <h3 class="contra">Contras:</h3>
+              <ul>
+                <li>Gerenciamento de dependências pode ser complexo em projetos grandes.</li>
+                <li>Possibilidade de erros e problemas de segurança se não utilizado corretamente.</li>
+                <li>Curva de aprendizado para dominar conceitos mais avançados, como manipulação do DOM.</li>
+              </ul>
+              <h3 class="prj">Grandes projetos que utilizam JavaScript:</h3>
+              <ul>
+                <li>Google Maps</li>
+                <li>Facebook</li>
+                <li>Netflix</li>
+                <li>Spotify</li>
+                <li>WhatsApp</li>
+                <li>Twitter</li>
+              </ul>
+            </section>
+                               
+    </div>
+    <footer class="footer">
+    <footer_content class="footer_content">
+      <h1 class="frasemot">Se você não se ver como o melhor, ninguém verá!</h1>
+      <div class="row flex-wrap">
+      <div class="col">
+        <div class="redes">
+          <img class="rounded-image" src="images/instagram.jpg" alt="Rede social 1">
+          <a href="https://www.instagram.com/caiobf04/?hl=pt-br" target="_blank" class="caption">Instagram</a>
+        </div>
+        <div class="redes">
+          <img class="rounded-image" src="images/twitter.jpg" alt="Rede social 4">
+          <a href="https://twitter.com/CaioBF2004" target="_blank" class="caption">Twitter</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="redes">
+          <img class="rounded-image" src="images/gmail.jpg" alt="Rede social 4">
+          <a href="contato.html" class="caption">caiobandeira99@gmail.com</a>
+        </div>
+        <div class="redes">
+          <img class="rounded-image" src="images/outlook.jpg" alt="Rede social 4">
+          <a href="contato.html" class="caption">WI1380564@outlook.com</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="redes">
+          <img class="rounded-image" src="images/granberylogo.jpg" alt="Rede social 3">
+          <a href="http://granbery.edu.br/" target="_blank" class="caption">Faculdade Metodista Granbery</a>
+        </div>
+        <div class="redes">
+          <img class="rounded-image" src="images/juizdefora.jpg" alt="Rede social 6">
+          <a href="http://www.pjf.mg.gov.br/" target="_blank" class="caption">Juiz de Fora - Minas Gerais</a>
+        </div>
+  </footer>
+</body>
+</html>
